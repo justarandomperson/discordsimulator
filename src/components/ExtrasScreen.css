@@ -1,0 +1,34 @@
+.ExtrasScreen .menuBtn{
+    top:0; 
+}
+
+.UnlockedEndingsList{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    width: 16em;
+}
+
+.characterList {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    width: 20em;
+}
+
+.characterList li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5em;
+    border-bottom: 1px solid;
+}
+
+.characterList button{
+    font-size: large;
+    width: 5em;
+    height: 1.5em;
+}
+
+@media only screen and (max-height: 700px) {
+    .characterList button{
+        font-size: small;
+    }
+}

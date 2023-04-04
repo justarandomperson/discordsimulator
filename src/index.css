@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+   
+body{
+    background-color: #36393e;
+    overflow: hidden;
+}
+
+.btn{
+  color: black;
+  border: 2px solid black;
+  font-weight: bolder;
+  background-color: white;
+  text-decoration: none;
+}
+
+.btn:hover{
+  color: black;
+  background-color: gray;
+  border: 5px solid black;
+}
+
+.menuBtn {
+  font-size: 2em;
+  padding: 0.2em;
+  width: 3em;
+  margin: auto;
+  border: 5px solid transparent;
+  position:absolute; 
+  top:0; 
+  right:0;
+}
+
+@media only screen and (max-width: 500px){
+  .menuBtn {
+    font-size: 1.2em;
+    top:78%
+  }
+} 

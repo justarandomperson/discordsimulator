@@ -1,0 +1,28 @@
+.optionBtns {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.optionBtns .btn{
+    width: 100%;
+    height: 2.5em;
+    font-size: 2em;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.optionBtns .btn:hover{
+    background-color: gray;
+}
+
+@media only screen and (max-width: 500px) {
+    .optionBtns .btn{
+        height:5em;
+        font-size: 1.5em;
+    }
+ }
+

@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.messageContainer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.messageContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    color: white;
+}
+
+.messageInformation{
+    display: flex;
+    flex-direction: row;
+}
+
+.messageTime{
+    color: gray;
+    margin-left: 10px;
+}
+
+.profile-picture{
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+}
+
+.emoji {
+    font-size: 5vh;
+}
+
+.messageContainer:hover{
+    background-color: rgb(38, 38, 38);
+}
+
+@media only screen and (max-width: 600px) {
+   .messageContainer{
+    font-size: 0.8em;
+   }
+   .profile-picture{
+    width: 32px;
+    height: 32px;
+   }
+}
