@@ -1,41 +1,41 @@
 .MenuScreen {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: white;
-    background-size: cover;
-    background-position: 50% 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: 50% 40%;
 }
 
-.MenuScreen h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 5em;
-    background-color: white;
-    border: 2px solid;
+.MenuScreen h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 5em;
+  background-color: white;
+  border: 2px solid;
 }
 
 .MenuButtons {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20em;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20em;
 }
 
-.MenuButtons .btn{
-    font-size: 2em;
-    padding: 0.5em;
-    width: 35%;
-    margin: auto;
-    margin-bottom: 0.5em;
-    border: 5px solid;
+.MenuButtons .btn {
+  font-size: 2em;
+  padding: 0.5em;
+  width: 35%;
+  margin: auto;
+  margin-bottom: 0.5em;
+  border: 5px solid;
 }
 
-.MenuButtons .btn:hover{
-    border: 5px solid black;
+.MenuButtons .btn:hover {
+  border: 5px solid black;
 }
 
-@media only screen and (max-width: 500px){
-    .MenuScreen h1{
-        font-size: 3em;
-    }
+@media only screen and (max-width: 500px) {
+  .MenuScreen h1 {
+    font-size: 3em;
+  }
 }

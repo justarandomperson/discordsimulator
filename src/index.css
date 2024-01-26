@@ -1,14 +1,14 @@
 * {
-    padding: 0;
-    margin: 0;
-  }
-   
-body{
-    background-color: #36393e;
-    overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
 
-.btn{
+body {
+  background-color: #36393e;
+  overflow: hidden;
+}
+
+.btn {
   color: black;
   border: 2px solid black;
   font-weight: bolder;
@@ -16,7 +16,7 @@ body{
   text-decoration: none;
 }
 
-.btn:hover{
+.btn:hover {
   color: black;
   background-color: gray;
   border: 5px solid black;
@@ -28,14 +28,14 @@ body{
   width: 3em;
   margin: auto;
   border: 5px solid transparent;
-  position:absolute; 
-  top:0; 
-  right:0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
   .menuBtn {
     font-size: 1.2em;
-    top:78%
+    top: 78%;
   }
-} 
+}
